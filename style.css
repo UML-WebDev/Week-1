@@ -1,0 +1,47 @@
+/*
+In this css file, a little more than what we covered is included for some further learning.
+*/
+
+.blueBorder{
+    border: solid 1px blue;
+}
+.greenBorder{
+    border: solid 2px green;
+    /* css measurements (including percent as seen here) can
+    be explored at : https://www.tutorialspoint.com/css/css_measurement_units.htm */
+    margin: 2%;
+    padding: 10px;
+}
+.largeText{
+    /*this is a css comment*/
+    font-size: 30px;
+}
+/*use the '#' for ids and '.' for classes*/
+#unique{
+    /*this edits the color of the text*/
+    color: darkred;
+}
+
+.paragraph{
+    padding: 20px;
+    /*specific margins can be applied to left, right, top, and bottom*/
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: beige;
+    /*font style & other css terms can be found on w3 schools*/
+    font-style: italic;
+}
+
+/*this class has a hover selector that applies these changes to the class paragraph when the mouse hovers over it*/
+.paragraph:hover{
+    font-size: 20px;
+}
+
+/*applies to all h2 elements*/
+h2{
+    color: darkblue;
+}
+
+h3{
+    color: orange;
+}
